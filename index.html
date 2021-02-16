@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="intro">
+      <div class="intro__img">
+        <picture>
+          <img src="img/cv-avatar.jpg" width="150" height="150" alt="Beginner developer Akentev Andrey">
+        </picture>
+      </div>
+
+      <div class="intro__description">
+        <p class="intro__title">My name is<br> Akentev Andrey</p>
+        <p class="intro__info">I'm a beginner Front-End Developer</p>
+      </div>
+    </div>
+
+    <section class="contacts">
+      <h2 class="secondary-title">Contact details</h2>
+
+      <ul>
+        <li>
+          <span>E‑mail:</span>
+          <a class="link" href="mailto:vetneka@yandex.ru">vetneka@yandex.ru</a>
+        </li>
+        <li>
+          <span>GitHub:</span>
+          <a class="link" href="https://github.com/vetneka/">@vetneka</a>
+        </li>
+        <li>
+          <span>Discord, Telegram, Slack:</span>
+          <a class="link">@vetneka</a>
+        </li>
+      </ul>
+    </section>
+  </header>
+
+  <main class="main">
+    <h1 class="visually-hidden">Resume of a beginner frontend-developer</h1>
+
+    <section class="skills">
+      <h2 class="secondary-title">Professional skills</h2>
+      <p>My list of skills is small, but constantly updated:</p>
+      <ul>
+        <li>HTML5, Markdown, SVG</li>
+        <li>CSS3, SASS/SCSS</li>
+        <li>Git, Gulp,  BEM (CSS class naming only)</li>
+        <li>Adobe Photoshop CC, Adobe Illustrator, Zeplin</li>
+        <li>Adaptive/Responsive development technique</li>
+        <li>Mobile/Desktop First</li>
+      </ul>
+    </section>
+
+    <section class="code-example">
+      <h2 class="secondary-title">Code examples</h2>
+      <p>My latest code can be viewed on <a class="link" href="https://github.com/vetneka/">GitHub</a>.</p>
+
+      <p>For example, a fragment of the markup from the last project:</p>
+
+      <pre><code>
+        &lt;ul class="social"&gt;
+          &lt;li&gt;
+            &lt;a class="social__link" href="#"&gt;
+              &lt;svg width="32" height="32" aria-hidden="true"&gt;
+                &lt;use href="img/sprite.svg#icon-facebook"&gt;&lt;/use&gt;
+              &lt;/svg&gt;
+              &lt;span class="visually-hidden"&gt;Фейсбук&lt;/span&gt;
+            &lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      </code></pre>
+
+      <p>For example, connecting the library `svg4everybody` to the last project:</p>
+
+      <pre><code>
+        'use strict';
+        (function () {
+          if('svg4everybody' in window) {
+            svg4everybody();
+            }
+        })();
+      </code></pre>
+
+    </section>
+
+    <section class="experience">
+      <h2 class="secondary-title">Professional experience</h2>
+      <dl>
+        <dt>HTML Academy</dt>
+        <dd>
+          I study for a Frontend Developer in HTML Academy (since <time datetime="2019-09-02">2.09.2019</time>). My project is under development.
+          The latest version can be viewed at the link:
+
+          <ul class="experience__list">
+            <li>
+              <a class="experience__link">
+                <picture>
+                  <img src="img/device.jpg" width="150" height="150" alt="Project Device">
+                </picture>
+                Device
+              </a>
+            </li>
+
+            <li>
+              <a class="experience__link">
+                <picture>
+                  <img src="img/pognali.jpg" width="150" height="150" alt="Project Pognali">
+                </picture>
+                Pognali
+              </a>
+            </li>
+
+            <li>
+              <a class="experience__link">
+                <picture>
+                  <img src="img/codeAndMagic.jpg" width="150" height="150" alt="Project Code and Magic">
+                </picture>
+                Code and Magic
+              </a>
+            </li>
+
+            <li>
+              <a class="experience__link">
+                <picture>
+                  <img src="img/keksobooking.jpg" width="150" height="150" alt="Project Keksobooking">
+                </picture>
+                Keksobooking
+              </a>
+            </li>
+          </ul>
+        </dd>
+
+        <dt>The Rolling Scopes School</dt>
+        <dd>
+          I study for a Frontend Developer in RSShcool (since <time datetime="2021-02-28">28.02.2021</time>). My projects is under development. They can be viewed at the link: <a class="link" href="https://github.com/vetneka/rsschool-cv">RSSchool</a>
+        </dd>
+      </dl>
+    </section>
+
+    <section class="education">
+      <h2 class="secondary-title">Education on web developement</h2>
+      <ul>
+        <li><a class="link" href="https://htmlacademy.ru/profile/id83617">1278 (of 1493) courses</a> in HTML Academy;</li>
+        <li>study YouTube videos such as:
+          <ul>
+            <li>RSSchool</li>
+            <li>WebStandarts</li>
+            <li>JavaScript.ru</li>
+            <li>JavaRush</li>
+            <li>TraversyMedia </li>
+            <li>other</li>
+          </ul>
+        </li>
+        <li>study websites about web development such as:
+          <ul>
+            <li>CSS-Tricks</li>
+            <li>Smashingmagazine</li>
+            <li>Medium</li>
+            <li>Habr</li>
+            <li>Stackoverflow </li>
+            <li>other</li>
+          </ul>
+        </li>
+        <li>study for a Frontend Developer in HTML Academy</li>
+        <li>study for a Frontend Developer in RSShcool</li>
+      </ul>
+    </section>
+
+    <section class="languages">
+      <h2 class="secondary-title">Languages</h2>
+      <p>
+        To be honest, my English level is A1, but I make an effort to study this.<br>
+        What am I doing for this? For example, this:
+      </p>
+      <ul>
+        <li>I using Duolingo and Lingualeo</li>
+        <li>I read articles in English (including articles on the web development)</li>
+        <li>I watch video in English (including video on the web development)</li>
+        <li>I study grammar in "Essential Grammar in Use. Raymond Murphy"</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
