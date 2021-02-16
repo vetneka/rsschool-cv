@@ -71,3 +71,22 @@ My project is under development. The latest version can be viewed at the _**[git
 ---
 
 I study for a Frontend Developer in RSShcool (since 28.02.2021). My projects is under development. They can be viewed at the link: _**[RSSchool](https://github.com/vetneka/)**_
+
+## 5. Education on web developement
+
+* 1309 (of 1414) courses in HTML Academy;
+* study YouTube videos (such as RSSchool, WebStandarts, JS.ru, JavaRush, TraversyMedia and other);
+* study websites about web development (such as css-tricks, smashingmagazine,medium, habr, stackoverflow and other);
+* study for a Frontend Developer in HTML Academy;
+* study for a Frontend Developer in RSShcool.
+
+## 6. Languages
+
+To be honest, my English level is *A1*, but I make an effort to study this.
+
+What am I doing for this? For example, this:
+
+* I using Duolingo and Lingualeo;
+* I read articles in English (including articles on the web development);
+* I watch video in English (including video on the web development);
+* I study grammar in "Essential Grammar in Use. Raymond Murphy".
